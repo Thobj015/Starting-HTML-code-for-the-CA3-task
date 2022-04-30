@@ -26,7 +26,39 @@
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
       }
+      
+    body {
+      background-color: var(--c-background-color)
+    }  
+    header {
+      background-color: var(--c-background-highlights)
+    }
+    footer {
+      background-color: var(--c-background-highlights)   
+    }
+    main
+     {
+      color: var(--base-font-color)
+    }
+    header
+     {
+      color: var(--base-font-color)
+    }
+    footer
+     {
+      color: var(--base-font-color)
+    }
+    a {
+      color:var(--c-magenta);
+    }
+    a:hover{
+      color:var(--c-orange)
+    }
+
+
+
     </style>
+
 
   </head>
 
